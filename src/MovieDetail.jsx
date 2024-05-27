@@ -19,7 +19,7 @@ const MovieDetail = ({ movie, onClose, onAddToCart }) => {
           <p>{movie.overview}</p>
           <p><strong>Rating:</strong> {movie.vote_average}</p>
           <p><strong>Release Date:</strong> {movie.release_date}</p>
-          <button className="add-to-cart-button" onClick={() => onAddToCart(movie)}>Add to Cart</button>
+          <button className="add-to-cart-button" onClick={() => onAddToCart(movie)}>Səbətə əlavə et</button>
         </div>
       </div>
     </div>
