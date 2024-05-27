@@ -1,0 +1,61 @@
+.card {
+    max-height: 25rem;
+    width: 13rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: rgb(80, 102, 227);
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    color: white;
+}
+
+.title {
+    font-size: 1rem;
+}
+
+.vote {
+    font-size: 1rem;
+}
+
+.overview {
+    transform: translateY(100%);
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    overflow: auto;
+    margin-top: 3rem;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+
+.card:hover .overview {
+    transform: translateY(0%);
+}
+
+.title_overview {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.overview_info {
+    font-size: 1rem;
+}
