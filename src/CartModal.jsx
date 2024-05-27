@@ -14,7 +14,7 @@ const CartModal = ({ cart, onClose, onRemove }) => {
               {cart.map(movie => (
                 <li key={movie.id}>
                   {movie.title}
-                  <button onClick={() => onRemove(movie.id)}>Remove</button>
+                  <button onClick={() => onRemove(movie.id)}>Sil</button>
                 </li>
               ))}
             </ul>
