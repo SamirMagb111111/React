@@ -1,5 +1,7 @@
 cd react-layihe
+
 npm i
+
 npm run dev
 
 
